@@ -1,17 +1,21 @@
 body {
     background-color: #1f2937;
     font-family: Trebuchet, sans-serif;
+    height: 100vh;
 }
 
 .container {
-    width: 80%;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .header {
     color: #f9faf8;
     margin-top: 120px;
+    margin-bottom: 120px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -76,4 +80,36 @@ body {
     padding: 8px 30px;
     border: none;
     border-radius: 8px;
+}
+
+.footer {
+    font-size: 12px;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    text-align: center;
+    background-color: #f9faf8;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-image {
+    border: solid 2px #3882f6;
+    width: 200px;
+    height: 200px;
 }
