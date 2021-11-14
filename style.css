@@ -1,5 +1,6 @@
 body {
     background-color: #1f2937;
+    font-family: Trebuchet, sans-serif;
 }
 
 .container {
@@ -8,22 +9,43 @@ body {
     margin-right: auto;
 }
 
+.header {
+    color: f9faf8;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
 .nav {
-    color: white;
-    border: 5px solid red;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.nav ul {
+.nav-links ul {
     list-style-type: none;
-    border: 5px solid green;
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 16px;
 }
 
-.nav ul a {
+.nav-links ul a {
     text-decoration: none;
-    border: 5px solid blue;
+    font-size: 18px;
+    color: #e5e7eb;
 }
+
+.header-content {
+    border: solid 2px red;
+    margin-top: 100px;
+}
+
+.header-image {
+    border: solid 2px green;
+}
+
+.image {}
