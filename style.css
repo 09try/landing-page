@@ -91,6 +91,20 @@ body {
     background-color: #6d747d;
 }
 
+.info {
+    background-color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.info-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+
 .footer {
     display: flex;
     flex-direction: column;
