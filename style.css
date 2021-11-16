@@ -40,7 +40,6 @@ body {
     width: 60%;
     display: flex;
     flex-direction: column;
-    flex: 1;
     margin-left: auto;
     margin-right: auto;
 }
@@ -97,6 +96,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    flex: 1;
 }
 
 .info-text {
