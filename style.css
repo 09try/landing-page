@@ -112,19 +112,25 @@ body {
 .info-content {
     display: flex;
     flex-direction: row;
-    margin-bottom: 30px;
+    gap: 80px;
+    margin-bottom: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 
-.info-item {}
+.info-item {
+    text-align: center;
+}
 
 .illustration {
     height: 200px;
-    border: solid 3px #3882f6;
-    border-radius: 5px;
+    border: solid 4px #3882f6;
+    border-radius: 15px;
 }
 
 .info-item-text {
     color: #1f2937;
+    margin-top: 10px;
 }
 
 .quote {
