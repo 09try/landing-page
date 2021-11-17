@@ -94,6 +94,7 @@ body {
 .info {
     background-color: #f9faf8;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
@@ -104,10 +105,32 @@ body {
     color: #1f2937;
     font-size: 36px;
     font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.info-item {}
+
+.illustration {
+    height: 200px;
+    border: solid 3px #3882f6;
+    border-radius: 5px;
+}
+
+.info-item-text {
+    color: #1f2937;
 }
 
 .quote {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote-text {
@@ -136,8 +159,8 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
     margin-top: 30px;
